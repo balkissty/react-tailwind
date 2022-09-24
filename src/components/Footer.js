@@ -22,10 +22,10 @@ function Footer() {
           <div className="">
             <p className="text-2xl md:text-1xl font-semibold mb-4">QUICK LINKS</p>
             <ul className="text-base">
-              <li>Home</li>
-              <li>About</li>
-              <li>Categories</li>
-              <li>Contact Us</li>
+              <li className='cursor-pointer'>Home</li>
+              <li className='cursor-pointer'>About</li>
+              <li className='cursor-pointer'>Categories</li>
+              <li className='cursor-pointer'>Contact Us</li>
             </ul>
           </div>
           <div className='flex justify-between md:block'>
