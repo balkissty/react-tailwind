@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 import {
   AiOutlineInstagram,
@@ -8,10 +8,9 @@ import {
 } from "react-icons/ai";
 
 function Footer() {
-  const scrollToTop = () => {
-    window.scrollTo({top:0, left:0, behavior: 'smooth'
-    })
-  }
+  // const scrollToTop = () => {
+  //   window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  // };
   return (
     <>
       <footer className="mt-10 bg-black text-white py-10 px-5 md:px-10 lg:px-20">
@@ -26,19 +25,28 @@ function Footer() {
               while shopping.
             </p>
             <div className="sm-icons flex space-x-5 items-center justify-center mx-auto my-4">
-              <a href="tel:+2347063383263" target="_blank">
+              <a href="tel:+2347063383263" target="_blank" rel="noreferrer">
                 <AiOutlinePhone />
               </a>
               <a
                 href="https://instagram.com/bonniesflair_?igshid=YmMyMTA2M2Y="
                 target="_blank"
+                rel="noreferrer"
               >
                 <AiOutlineInstagram />
               </a>
-              <a href="https://wa.me/message/72CDTLC5BZAOO1" target="_blank">
+              <a
+                href="https://wa.me/message/72CDTLC5BZAOO1"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <AiOutlineWhatsApp />
               </a>
-              <a href="mailto:bonniesflair@gmail.com" target="_blank">
+              <a
+                href="mailto:bonniesflair@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <AiOutlineMail />
               </a>
             </div>
@@ -71,4 +79,4 @@ function Footer() {
   );
 }
 
-export default Footer
+export default Footer;
