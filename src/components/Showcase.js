@@ -1,7 +1,5 @@
 import Background from '../assets/background/bg.png';
 
-
-
 function Showcase() {
   return (
     <>
