@@ -41,7 +41,7 @@ function Female() {
 
             <div className="">
               <div className="mt-3">
-                <p className="mb-2">Classic designer sunshade for ladies</p>
+                <p className="mb-2">Beehive Female Sunglasses</p>
                 <p className="font-bold">&#8358;5000</p>
               </div>
             </div>
@@ -54,7 +54,9 @@ function Female() {
             />
 
             <div className="mt-3">
-              <p className="mb-2">Cut trimmed lens with temples sunglasses</p>
+              <p className="mb-2">
+                Fashion Steampunk Vintage Sunglasses
+              </p>
               <p className="font-bold">&#8358;5000</p>
             </div>
           </div>
@@ -67,7 +69,7 @@ function Female() {
 
             <div className="">
               <div className="mt-3">
-                <p className=" mb-2">Classic designer sunshade for ladies</p>
+                <p className=" mb-2">Fashion Square Shades</p>
                 <p className="font-bold">&#8358;5000</p>
               </div>
             </div>
@@ -81,7 +83,7 @@ function Female() {
 
             <div className="">
               <div className="mt-3">
-                <p className="mb-2">Cut trimmed lens with temples sunglasses</p>
+                <p className="mb-2">Oversized Square Luxury Glasses</p>
                 <p className="font-bold">&#8358;5000</p>
               </div>
             </div>
@@ -95,7 +97,7 @@ function Female() {
 
             <div className="">
               <div className="mt-3">
-                <p className="mb-2">Cut trimmed lens with temples sunglasses</p>
+                <p className="mb-2">Jeans Fashion Sunglasses</p>
                 <p className="font-bold">&#8358;5000</p>
               </div>
             </div>
