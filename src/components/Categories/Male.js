@@ -41,7 +41,7 @@ function Male() {
               <p className="mb-3 flex flex-wrap">
                 Anti-blue light blocking Computer glasses
               </p>
-              <p className="font-bold">$14</p>
+              <p className="font-bold">&#8358;6000</p>
             </div>
           </div>
           <div className="text-left">
@@ -55,7 +55,7 @@ function Male() {
               <p className="mb-3 flex flex-wrap">
                 Anti-blue light blocking Computer glasses
               </p>
-              <p className="font-bold">$14</p>
+              <p className="font-bold">&#8358;5000</p>
             </div>
           </div>
           <div className="text-left">
@@ -69,7 +69,7 @@ function Male() {
               <p className="mb-3 flex flex-wrap">
                 Anti-blue light blocking Computer glasses
               </p>
-              <p className="font-bold">$14</p>
+              <p className="font-bold">&#8358;5000</p>
             </div>
           </div>
           <div className="text-left">
@@ -83,7 +83,7 @@ function Male() {
               <p className="mb-3 flex flex-wrap">
                 Anti-blue light blocking Computer glasses
               </p>
-              <p className="font-bold">$14</p>
+              <p className="font-bold">&#8358;5000</p>
             </div>
           </div>
           <div className="text-left">
@@ -97,7 +97,7 @@ function Male() {
               <p className="mb-3 flex flex-wrap">
                 Anti-blue light blocking Computer glasses
               </p>
-              <p className="font-bold">$14</p>
+              <p className="font-bold">&#8358;6000</p>
             </div>
           </div>
         </div>

@@ -42,7 +42,7 @@ function AntiBlueLight() {
               <p className="mb-3 flex flex-wrap">
                 Anti-blue light blocking Computer glasses
               </p>
-              <p className="font-bold">$14</p>
+              <p className="font-bold">&#8358;5000</p>
             </div>
           </div>
           <div className="text-left">
@@ -53,7 +53,7 @@ function AntiBlueLight() {
             />
             <div className="mt-3">
               <p className="mb-3">Anti-blue light blocking Computer glasses</p>
-              <p className="font-bold">$22</p>
+              <p className="font-bold">&#8358;5000</p>
             </div>
           </div>
           <div className="">
@@ -64,7 +64,7 @@ function AntiBlueLight() {
             />
             <div className="mt-3">
               <p className=" mb-3">Anti-blue light blocking Computer glasses</p>
-              <p className="font-bold">$12</p>
+              <p className="font-bold">&#8358;5000</p>
             </div>
           </div>
           <div className="">
@@ -75,7 +75,7 @@ function AntiBlueLight() {
             />
             <div className="mt-3">
               <p className=" mb-3">Anti-blue light blocking Computer glasses</p>
-              <p className="font-bold">$18</p>
+              <p className="font-bold">&#8358;5000</p>
             </div>
           </div>
           <div className="">
@@ -86,7 +86,7 @@ function AntiBlueLight() {
             />
             <div className="mt-3">
               <p className=" mb-3">Anti-blue light blocking Computer glasses</p>
-              <p className="font-bold">$18</p>
+              <p className="font-bold">&#8358;5000</p>
             </div>
           </div>
         </div>
