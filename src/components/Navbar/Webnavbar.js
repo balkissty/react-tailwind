@@ -19,7 +19,7 @@ function Navbar() {
     setNavbarOpen(!navbarOpen);
   };
   return (
-    <div>
+    <div className="sticky top-0 bg-white z-50">
       <nav className="shadow-3xl mb-0 sm:mb-10 h-20">
         <div className="flex items-center justify-between px-5 md:px-10 lg:px-20 py-2">
           <div className="flex items-center">
@@ -55,13 +55,25 @@ function Navbar() {
             <a href="tel:+2347063383263" target="_blank" rel="noreferrer">
               <AiOutlinePhone />
             </a>
-            <a href="https://instagram.com/bonniesflair_?igshid=YmMyMTA2M2Y=" target="_blank" rel="noreferrer">
+            <a
+              href="https://instagram.com/bonniesflair_?igshid=YmMyMTA2M2Y="
+              target="_blank"
+              rel="noreferrer"
+            >
               <AiOutlineInstagram />
             </a>
-            <a href="https://wa.me/message/72CDTLC5BZAOO1" target="_blank" rel="noreferrer">
+            <a
+              href="https://wa.me/message/72CDTLC5BZAOO1"
+              target="_blank"
+              rel="noreferrer"
+            >
               <AiOutlineWhatsApp />
             </a>
-            <a href="mailto:bonniesflair@gmail.com" target="_blank" rel="noreferrer">
+            <a
+              href="mailto:bonniesflair@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               <AiOutlineMail />
             </a>
           </div>
