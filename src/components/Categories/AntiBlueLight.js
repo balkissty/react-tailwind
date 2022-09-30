@@ -8,8 +8,8 @@ import Antiblue5 from "../../assets/anti-blue-light/5.jpeg";
 function AntiBlueLight() {
   return (
     <>
-      <div className="mt-10 mx-5 md:mx-0 shadow-xl rounded-l-2xl">
-        <div className="rounded-t-2xl md:rounded-tr-none bg-[#051D4C]">
+      <div className="mt-10 mx-5 md:mx-0 shadow-xl rounded-2xl">
+        <div className="rounded-t-2xl  bg-[#051D4C]">
           <div className="px-5 md:px-10 lg:px-20 flex justify-between items-center py-5 text-1xl md:text-2xl text-white">
             <p className="flex flex-wrap">Anti-blue light glasses</p>
             {/* <div className="flex justify-between items-center space-x-8">
@@ -42,7 +42,7 @@ function AntiBlueLight() {
               <p className="mb-3 flex flex-wrap">
                 Anti-blue light blocking Computer glasses
               </p>
-              <p className="font-bold">$14</p>
+              <p className="font-bold">&#8358;5000</p>
             </div>
           </div>
           <div className="text-left">
@@ -53,7 +53,7 @@ function AntiBlueLight() {
             />
             <div className="mt-3">
               <p className="mb-3">Anti-blue light blocking Computer glasses</p>
-              <p className="font-bold">$22</p>
+              <p className="font-bold">&#8358;5000</p>
             </div>
           </div>
           <div className="">
@@ -64,7 +64,7 @@ function AntiBlueLight() {
             />
             <div className="mt-3">
               <p className=" mb-3">Anti-blue light blocking Computer glasses</p>
-              <p className="font-bold">$12</p>
+              <p className="font-bold">&#8358;5000</p>
             </div>
           </div>
           <div className="">
@@ -75,7 +75,7 @@ function AntiBlueLight() {
             />
             <div className="mt-3">
               <p className=" mb-3">Anti-blue light blocking Computer glasses</p>
-              <p className="font-bold">$18</p>
+              <p className="font-bold">&#8358;5000</p>
             </div>
           </div>
           <div className="">
@@ -86,7 +86,7 @@ function AntiBlueLight() {
             />
             <div className="mt-3">
               <p className=" mb-3">Anti-blue light blocking Computer glasses</p>
-              <p className="font-bold">$18</p>
+              <p className="font-bold">&#8358;5000</p>
             </div>
           </div>
         </div>

@@ -8,8 +8,8 @@ import Female5 from "../../assets/female-glasses/5.jpeg";
 function Female() {
   return (
     <>
-      <div className="mt-10 mx-5 md:mx-0 shadow-xl rounded-l-2xl">
-        <div className="rounded-t-2xl md:rounded-tr-none bg-[#051D4C]">
+      <div className="mt-10 mx-5 md:mx-0 shadow-xl rounded-2xl">
+        <div className="rounded-t-2xl  bg-[#051D4C]">
           <div className="px-5 md:px-10 lg:px-20 flex justify-between items-center py-5 text-white mt-3 md:text-2xl">
             <parseFloat>Female Glasses</parseFloat>
             {/* <div className="flex justify-between items-center space-x-9">
@@ -42,7 +42,7 @@ function Female() {
             <div className="">
               <div className="mt-3">
                 <p className="mb-2">Classic designer sunshade for ladies</p>
-                <p className="font-bold">$14</p>
+                <p className="font-bold">&#8358;5000</p>
               </div>
             </div>
           </div>
@@ -55,7 +55,7 @@ function Female() {
 
             <div className="mt-3">
               <p className="mb-2">Cut trimmed lens with temples sunglasses</p>
-              <p className="font-bold">$22</p>
+              <p className="font-bold">&#8358;5000</p>
             </div>
           </div>
           <div className="text-left">
@@ -68,7 +68,7 @@ function Female() {
             <div className="">
               <div className="mt-3">
                 <p className=" mb-2">Classic designer sunshade for ladies</p>
-                <p className="font-bold">$12</p>
+                <p className="font-bold">&#8358;5000</p>
               </div>
             </div>
           </div>
@@ -82,7 +82,7 @@ function Female() {
             <div className="">
               <div className="mt-3">
                 <p className="mb-2">Cut trimmed lens with temples sunglasses</p>
-                <p className="font-bold">$18</p>
+                <p className="font-bold">&#8358;5000</p>
               </div>
             </div>
           </div>
@@ -96,7 +96,7 @@ function Female() {
             <div className="">
               <div className="mt-3">
                 <p className="mb-2">Cut trimmed lens with temples sunglasses</p>
-                <p className="font-bold">$18</p>
+                <p className="font-bold">&#8358;5000</p>
               </div>
             </div>
           </div>

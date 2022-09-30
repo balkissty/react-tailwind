@@ -5,6 +5,12 @@ import Mobilenavbar from "./Mobilenavbar";
 
 // react icons
 import { BsCart, BsSearch } from "react-icons/bs";
+import {
+  AiOutlineInstagram,
+  AiOutlineMail,
+  AiOutlinePhone,
+  AiOutlineWhatsApp,
+} from "react-icons/ai";
 
 function Navbar() {
   const [navbarOpen, setNavbarOpen] = useState(false);
@@ -45,9 +51,20 @@ function Navbar() {
               </Link>
             </div>
           </div>
-          <button className="bg-[#051D4C] text-white p-3 rounded-lg my-4">
-            Contact Seller
-          </button>
+          <div className="sm-icons flex space-x-5 items-center">
+            <a href="tel:+2347063383263" target="_blank">
+              <AiOutlinePhone />
+            </a>
+            <a href="https://instagram.com/bonniesflair_?igshid=YmMyMTA2M2Y=" target="_blank">
+              <AiOutlineInstagram />
+            </a>
+            <a href="https://wa.me/message/72CDTLC5BZAOO1" target="_blank">
+              <AiOutlineWhatsApp />
+            </a>
+            <a href="mailto:bonniesflair@gmail.com" target="_blank">
+              <AiOutlineMail />
+            </a>
+          </div>
           {/* <ul className="flex basis-3/4 w-full justify-end items-center space-x-3 ml-auto list-none">
             <li className="nav-item">
               <form className="hidden sm:flex items-center space-x-3">

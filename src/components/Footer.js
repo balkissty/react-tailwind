@@ -1,5 +1,12 @@
 import React from 'react'
 
+import {
+  AiOutlineInstagram,
+  AiOutlineMail,
+  AiOutlinePhone,
+  AiOutlineWhatsApp,
+} from "react-icons/ai";
+
 function Footer() {
   const scrollToTop = () => {
     window.scrollTo({top:0, left:0, behavior: 'smooth'
@@ -9,7 +16,7 @@ function Footer() {
     <>
       <footer className="mt-10 bg-black text-white py-10 px-5 md:px-10 lg:px-20">
         <div className="grid grid-cols-1 md:grid-cols-1 gap-10 md:gap-20 lg:gap-40">
-          <div className="text-center">
+          <div className="text-center mx-auto">
             <div className="text-1xl mb-4 font-bold font-['Montserrat']">
               <p className="font-normal">Bonnie's</p>
               <p className="tracking-[.5em]">Flair</p>
@@ -18,7 +25,26 @@ function Footer() {
               Get all your eye wears at a discounted price and also win gifts
               while shopping.
             </p>
-            <button className="bg-white text-black p-3 rounded-lg my-4" >Contact Sales</button>
+            <div className="sm-icons flex space-x-5 items-center justify-center mx-auto my-4">
+              <a href="tel:+2347063383263" target="_blank">
+                <AiOutlinePhone />
+              </a>
+              <a
+                href="https://instagram.com/bonniesflair_?igshid=YmMyMTA2M2Y="
+                target="_blank"
+              >
+                <AiOutlineInstagram />
+              </a>
+              <a href="https://wa.me/message/72CDTLC5BZAOO1" target="_blank">
+                <AiOutlineWhatsApp />
+              </a>
+              <a href="mailto:bonniesflair@gmail.com" target="_blank">
+                <AiOutlineMail />
+              </a>
+            </div>
+            <p className="max-w-sm mx-auto mt-6 text-center">
+              Developed by Mishael
+            </p>
           </div>
           {/* <div className="">
             <p className="text-2xl md:text-1xl font-semibold mb-4">QUICK LINKS</p>
