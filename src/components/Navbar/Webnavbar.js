@@ -15,8 +15,8 @@ function Navbar() {
   return (
     <div>
       <nav className="shadow-3xl mb-0 sm:mb-10 h-20">
-        <div className="flex items-center justify-center px-5 md:px-10 lg:px-20 py-2">
-          <div className="flex items-center justify-center">
+        <div className="flex items-center justify-between px-5 md:px-10 lg:px-20 py-2">
+          <div className="flex items-center">
             {/* <div onClick={handleClick} className="">
               <button
                 className="mr-6 cursor-pointer text-xl border border-solid border-transparent rounded bg-transparent block md:hidden outline-none focus:outline-none"
@@ -45,6 +45,9 @@ function Navbar() {
               </Link>
             </div>
           </div>
+          <button className="bg-[#051D4C] text-white p-3 rounded-lg my-4">
+            Contact Seller
+          </button>
           {/* <ul className="flex basis-3/4 w-full justify-end items-center space-x-3 ml-auto list-none">
             <li className="nav-item">
               <form className="hidden sm:flex items-center space-x-3">

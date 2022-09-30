@@ -1,17 +1,18 @@
 import React from "react";
-import Female1 from "../../assets/female-glasses/1.jpg";
-import Female2 from "../../assets/female-glasses/2.jpg";
-import Female3 from "../../assets/female-glasses/3.jpg";
-import Female4 from "../../assets/female-glasses/4.jpg";
+import Female1 from "../../assets/female-glasses/1.jpeg";
+import Female2 from "../../assets/female-glasses/2.jpeg";
+import Female3 from "../../assets/female-glasses/3.jpeg";
+import Female4 from "../../assets/female-glasses/4.jpeg";
+import Female5 from "../../assets/female-glasses/5.jpeg";
 
 function Female() {
   return (
     <>
       <div className="mt-10 mx-5 md:mx-0 shadow-xl rounded-l-2xl">
         <div className="rounded-t-2xl md:rounded-tr-none bg-[#051D4C]">
-          <div className="px-5 md:px-10 lg:px-20 flex justify-between items-center py-5 text-white text-1xl md:text-2xl">
-            <div>Female Glasses</div>
-            <div className="flex justify-between items-center space-x-9">
+          <div className="px-5 md:px-10 lg:px-20 flex justify-between items-center py-5 text-white mt-3 md:text-2xl">
+            <parseFloat>Female Glasses</parseFloat>
+            {/* <div className="flex justify-between items-center space-x-9">
               <p>See All</p>
               <svg
                 className="w-7 h-7 md:w-11 md:h-11"
@@ -27,63 +28,73 @@ function Female() {
                   d="M17 8l4 4m0 0l-4 4m4-4H3"
                 />
               </svg>
-            </div>
+            </div> */}
           </div>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-10 px-10 py-12">
-          <div className="space-y-3">
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-10 px-10 py-12">
+          <div className="text-left">
+            <img
+              className="object-cover aspect-square w-full"
+              src={Female1}
+              alt="anti-blue light glasses"
+            />
+
             <div className="">
-              <img
-                className="object-contain aspect-square w-full"
-                src={Female1}
-                alt="anti-blue light glasses"
-              />
-            </div>
-            <div className="">
-              <div className="text-1xl">
+              <div className="mt-3">
                 <p className="mb-2">Classic designer sunshade for ladies</p>
                 <p className="font-bold">$14</p>
               </div>
             </div>
           </div>
-          <div className="space-y-3">
-            <div className="">
-              <img
-                className="object-contain aspect-square w-full"
-                src={Female2}
-                alt="anti-blue light glasses"
-              />
-            </div>
-            <div className="text-1xl">
+          <div className="text-left">
+            <img
+              className="object-cover aspect-square w-full"
+              src={Female2}
+              alt="anti-blue light glasses"
+            />
+
+            <div className="mt-3">
               <p className="mb-2">Cut trimmed lens with temples sunglasses</p>
               <p className="font-bold">$22</p>
             </div>
           </div>
-          <div className="space-y-3">
+          <div className="text-left">
+            <img
+              className="object-cover aspect-square w-full"
+              src={Female3}
+              alt="anti-blue light glasses"
+            />
+
             <div className="">
-              <img
-                className="object-contain aspect-square w-full"
-                src={Female3}
-                alt="anti-blue light glasses"
-              />
-            </div>
-            <div className="">
-              <div className="text-1xl">
+              <div className="mt-3">
                 <p className=" mb-2">Classic designer sunshade for ladies</p>
                 <p className="font-bold">$12</p>
               </div>
             </div>
           </div>
-          <div className="space-y-3">
+          <div className="text-left">
+            <img
+              className="object-cover aspect-square w-full"
+              src={Female4}
+              alt="anti-blue light glasses"
+            />
+
             <div className="">
-              <img
-                className="object-contain aspect-square w-full"
-                src={Female4}
-                alt="anti-blue light glasses"
-              />
+              <div className="mt-3">
+                <p className="mb-2">Cut trimmed lens with temples sunglasses</p>
+                <p className="font-bold">$18</p>
+              </div>
             </div>
+          </div>
+          <div className="text-left">
+            <img
+              className="object-cover aspect-square w-full"
+              src={Female5}
+              alt="anti-blue light glasses"
+            />
+
             <div className="">
-              <div className="text-1xl">
+              <div className="mt-3">
                 <p className="mb-2">Cut trimmed lens with temples sunglasses</p>
                 <p className="font-bold">$18</p>
               </div>

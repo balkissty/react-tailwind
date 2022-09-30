@@ -1,7 +1,7 @@
 import React from "react";
 
 //images
-import image1 from "../assets/female-glasses/1.jpg";
+import image1 from "../assets/female-glasses/1.jpeg";
 
 // toast notification
 import { ToastContainer, toast } from "react-toastify";
