@@ -8,8 +8,8 @@ import Female5 from "../../assets/female-glasses/5.jpeg";
 function Female() {
   return (
     <>
-      <div className="mt-10 mx-5 md:mx-0 shadow-xl rounded-l-2xl">
-        <div className="rounded-t-2xl md:rounded-tr-none bg-[#051D4C]">
+      <div className="mt-10 mx-5 md:mx-0 shadow-xl rounded-2xl">
+        <div className="rounded-t-2xl  bg-[#051D4C]">
           <div className="px-5 md:px-10 lg:px-20 flex justify-between items-center py-5 text-white mt-3 md:text-2xl">
             <parseFloat>Female Glasses</parseFloat>
             {/* <div className="flex justify-between items-center space-x-9">

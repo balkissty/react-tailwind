@@ -7,8 +7,8 @@ import Male5 from "../../assets/male-glasses/5.jpeg";
 function Male() {
   return (
     <>
-      <div className="mt-10 mx-5 md:mx-0 shadow-xl rounded-l-2xl">
-        <div className="bg-[#051D4C] rounded-t-2xl md:rounded-tr-none">
+      <div className="mt-10 mx-5 md:mx-0 shadow-xl rounded-2xl">
+        <div className="bg-[#051D4C] rounded-t-2xl ">
           <div className="flex justify-between items-center px-5 md:px-10 lg:px-20 py-5 text-white text-1xl md:text-2xl">
             <p className="flex flex-wrap">Male Glasses</p>
             {/* <div className="flex justify-between items-center space-x-8">
