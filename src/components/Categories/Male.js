@@ -39,7 +39,7 @@ function Male() {
             />
             <div className="mt-3">
               <p className="mb-3 flex flex-wrap">
-                Anti-blue light blocking Computer glasses
+                Rimless Professional Male Glasses
               </p>
               <p className="font-bold">&#8358;6000</p>
             </div>
@@ -53,7 +53,7 @@ function Male() {
 
             <div className="mt-3">
               <p className="mb-3 flex flex-wrap">
-                Anti-blue light blocking Computer glasses
+                Vintage Square Metal Frame Eyeglasses
               </p>
               <p className="font-bold">&#8358;5000</p>
             </div>
@@ -67,7 +67,7 @@ function Male() {
 
             <div className="mt-3">
               <p className="mb-3 flex flex-wrap">
-                Anti-blue light blocking Computer glasses
+                Fashion vintage metal frame sunglasses
               </p>
               <p className="font-bold">&#8358;5000</p>
             </div>
@@ -80,9 +80,7 @@ function Male() {
             />
 
             <div className="mt-3">
-              <p className="mb-3 flex flex-wrap">
-                Anti-blue light blocking Computer glasses
-              </p>
+              <p className="mb-3 flex flex-wrap">Flat Top Shield Sunglasses</p>
               <p className="font-bold">&#8358;5000</p>
             </div>
           </div>
@@ -95,7 +93,7 @@ function Male() {
 
             <div className="mt-3">
               <p className="mb-3 flex flex-wrap">
-                Anti-blue light blocking Computer glasses
+                Retro Frameless Sunglasses
               </p>
               <p className="font-bold">&#8358;6000</p>
             </div>

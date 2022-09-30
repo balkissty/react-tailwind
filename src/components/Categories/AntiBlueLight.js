@@ -74,7 +74,7 @@ function AntiBlueLight() {
               alt="anti-blue light glasses"
             />
             <div className="mt-3">
-              <p className=" mb-3">Anti-blue light blocking Computer glasses</p>
+              <p className=" mb-3">Vintage Anti Blue Light Cat Eye Glasses</p>
               <p className="font-bold">&#8358;5000</p>
             </div>
           </div>
@@ -85,7 +85,7 @@ function AntiBlueLight() {
               alt="anti-blue light glasses"
             />
             <div className="mt-3">
-              <p className=" mb-3">Anti-blue light blocking Computer glasses</p>
+              <p className=" mb-3">Transparent Anti-blue light Glasses</p>
               <p className="font-bold">&#8358;5000</p>
             </div>
           </div>
