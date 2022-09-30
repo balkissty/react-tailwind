@@ -15,9 +15,9 @@ function Navbar() {
   return (
     <div>
       <nav className="shadow-3xl mb-0 sm:mb-10 h-20">
-        <div className="flex items-center px-5 md:px-10 lg:px-20 py-2">
-          <div className="flex items-center basis-1/4">
-            <div onClick={handleClick} className="">
+        <div className="flex items-center justify-between px-5 md:px-10 lg:px-20 py-2">
+          <div className="flex items-center">
+            {/* <div onClick={handleClick} className="">
               <button
                 className="mr-6 cursor-pointer text-xl border border-solid border-transparent rounded bg-transparent block md:hidden outline-none focus:outline-none"
                 type="button"
@@ -35,8 +35,8 @@ function Navbar() {
                   />
                 </svg>
               </button>
-            </div>
-            <div className=" font-bold text-justify inline-block py-2 whitespace-nowrap">
+            </div> */}
+            <div className=" m-auto font-bold text-center inline-block py-2 whitespace-nowrap">
               <Link to="/">
                 <div>
                   <p className="font-['Montserrat'] font-normal">Bonnie's</p>{" "}
@@ -45,7 +45,10 @@ function Navbar() {
               </Link>
             </div>
           </div>
-          <ul className="flex basis-3/4 w-full justify-end items-center space-x-3 ml-auto list-none">
+          <button className="bg-[#051D4C] text-white p-3 rounded-lg my-4">
+            Contact Seller
+          </button>
+          {/* <ul className="flex basis-3/4 w-full justify-end items-center space-x-3 ml-auto list-none">
             <li className="nav-item">
               <form className="hidden sm:flex items-center space-x-3">
                 <div className="relative">
@@ -80,7 +83,7 @@ function Navbar() {
                 </div>
               </Link>
             </li>
-          </ul>
+          </ul> */}
           {navbarOpen && <Mobilenavbar handleClick={handleClick} />}
         </div>
       </nav>

@@ -9,18 +9,18 @@ function Sidebar({ direction }) {
             <li className="font-bold mb-5">Categories</li>
             <li>Male</li>
             <li>Female</li>
-            <li>Kids</li>
-            <li>unisex</li>
+            <li>Anti-Bluelight</li>
           </ul>
         </>
       ) : (
         <>
           <ul className="hidden basis-1/4 gap-1 lg:grid pl-5 lg:pl-14 py-8 shadow-xl rounded-xl">
-            <li className="font-bold mb-5">Categories</li>
-            <li>Anti-Bluelight</li>
+            <li className="font-bold mb-5">Categories (Coming Soon)</li>
+            <li>Kids</li>
             <li>Rimless</li>
             <li>Night Vision</li>
             <li>Luxury</li>
+            <li>Fashion</li>
           </ul>
         </>
       )}
