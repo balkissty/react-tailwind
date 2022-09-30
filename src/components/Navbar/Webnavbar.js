@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Dropdown from "../Dropdown";
+// import Dropdown from "../Dropdown";
 import Mobilenavbar from "./Mobilenavbar";
 
 // react icons
-import { BsCart, BsSearch } from "react-icons/bs";
+// import { BsCart, BsSearch } from "react-icons/bs";
 import {
   AiOutlineInstagram,
   AiOutlineMail,
@@ -52,16 +52,16 @@ function Navbar() {
             </div>
           </div>
           <div className="sm-icons flex space-x-5 items-center">
-            <a href="tel:+2347063383263" target="_blank">
+            <a href="tel:+2347063383263" target="_blank" rel="noreferrer">
               <AiOutlinePhone />
             </a>
-            <a href="https://instagram.com/bonniesflair_?igshid=YmMyMTA2M2Y=" target="_blank">
+            <a href="https://instagram.com/bonniesflair_?igshid=YmMyMTA2M2Y=" target="_blank" rel="noreferrer">
               <AiOutlineInstagram />
             </a>
-            <a href="https://wa.me/message/72CDTLC5BZAOO1" target="_blank">
+            <a href="https://wa.me/message/72CDTLC5BZAOO1" target="_blank" rel="noreferrer">
               <AiOutlineWhatsApp />
             </a>
-            <a href="mailto:bonniesflair@gmail.com" target="_blank">
+            <a href="mailto:bonniesflair@gmail.com" target="_blank" rel="noreferrer">
               <AiOutlineMail />
             </a>
           </div>
